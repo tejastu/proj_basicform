@@ -1,0 +1,107 @@
+<html>
+     <head>
+		<title>Form </title>
+		<style>
+		      #t1{ 
+					border: 2px solid blue;
+					width: 600px;
+					height:600px;
+					padding: 15px;
+					margin-left: 310px;
+					background-color: yellow;
+			  
+			  }
+			  .c1{
+                    
+					font-family: cursive;
+                    font-size: 20px;
+                    color: darkblue;
+			  
+			  }
+			  
+			  #i3
+			  {
+			     margin-left: 115px;
+				margin-top: 100px;
+				width: 101px;
+				height: 33px;	
+			}
+		       
+		
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<div id="info">
+		
+			<form id="t1" method="POST" action="#">
+			
+			<label class="c1">Enter your Name:</label>
+			
+			<input type="text" id="i1" name="phone" autofocus placeholder="Enter your Name" required>
+			
+			</br>
+			</br>
+			
+			<label class="c1"> Enter your Email: </label>
+
+			<input type="email" id="i2" name="email" placeholder="Enter your Email" required>			
+			</br>
+			</br>
+			
+			
+			<label class="c1"> Enter your Password: </label>
+
+			<input type="password" id="i2" name="email" placeholder="Enter your Password">
+			
+			</br>
+			</br>
+			<label class="c1"> Gender: </label>
+			
+			<input type="radio" name="Gender" value=Male>Male
+			<input type="radio" name="Gender" value=Female>Female
+			
+			<br/>
+			<br/>
+			<label class="c1"> Prefered Language </label>
+			<select name="Language" >
+				<option value="Englih">Englih</option>
+				<option value="Hindi">Hindi</option>
+				<option value="Marathi">Marathi</option>				
+		    </select>
+			
+			</br>
+			</br>
+			
+			
+		   <label class="c1">Enter your address: </label>
+		   <textarea style="height: 50px; width: 100px;">
+			
+			
+	       </textarea>
+		
+		   </br>
+		   </br>
+		 
+		   <label class="c1">Enter Date OF Birth: </label>
+		   <input type="date" name="dob" id="dob" min="1999-01-01" max="2018-12-31">
+		   
+		 
+		   </br>
+		   </br>
+		   
+		   
+		   <label class="c1">Select Document:</label>
+		   <input type="file" name="Document" multiple>
+		    </br>
+			</br>
+			
+			<input type="submit" id="i3" name="submit" value="submit">
+			
+			<input type="reset" id="i3" name="reset" value="reset">
+			
+	</body>
+	
+</html>
